@@ -28,15 +28,23 @@ Application of the Captum library and layered integrated gradients for model int
 
 
 *Further Interpretablity work:*
+
 In future I am very interested in Introspective Rationale and '3 player models' for text interpretability. This requires a generator model which selects text snippets to train two classifier models on. Aiming to optimise the accuracy of the model which is fed the selected text and minimise the accuracy of models fed deselected text. 
 
 I have included my starter notebook on this topic, based on the github repo and research paper below.
 
 References:
+
 BERT - https://arxiv.org/abs/1706.03762
+
 Integrated Gradients - https://arxiv.org/abs/1703.01365
+
 Captum - https://captum.ai/tutorials/
+
 FastAI + transformers - https://towardsdatascience.com/fastai-with-transformers-bert-roberta-xlnet-xlm-distilbert-4f41ee18ecb2
+
 Introspective Rationale (paper) - http://people.csail.mit.edu/tommi/papers/YCZJ_EMNLP2019.pdf
+
 Introspective Ratinale (interpret-text github) - https://github.com/interpretml/interpret-text
 
+Good fake news reading - Cyberwar (Kathleen Jamieson)
